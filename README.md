@@ -1,56 +1,56 @@
-# Sistema de Gestão de Usuários e Endereços para Teste da Betha Sistemas
+# User and Address Management System for Betha Sistemas Test
 
-## Visão Geral
+## Overview
 
-Este projeto é uma aplicação web desenvolvida com Java no backend e Angular, HTML e CSS no frontend. A aplicação oferece funcionalidades de CRUD (Create, Read, Update, Delete) para gerenciar usuários e seus respectivos endereços. O projeto também implementa o padrão de projeto Singleton para garantir que uma única instância de uma classe seja criada e utilizada em toda a aplicação.
+This project is a web application developed with Java on the backend and Angular, HTML, and CSS on the frontend. The application provides CRUD (Create, Read, Update, Delete) functionalities to manage users and their respective addresses. The project also implements the Singleton design pattern to ensure that a single instance of a class is created and used throughout the application.
 
-## Funcionalidades
+## Features
 
-- **CRUD de Usuários**: Adicione, visualize, atualize e exclua informações de usuários.
-- **CRUD de Endereços**: Gerencie os endereços associados aos usuários, permitindo a criação, leitura, atualização e exclusão.
-- **Padrão Singleton**: A aplicação utiliza o padrão Singleton para gerenciar recursos compartilhados e garantir a consistência das operações.
+- **User CRUD**: Add, view, update, and delete user information.
+- **Address CRUD**: Manage the addresses associated with users, allowing creation, reading, updating, and deletion.
+- **Singleton Pattern**: The application uses the Singleton pattern to manage shared resources and ensure consistency in operations.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - **Backend**: Java
 - **Frontend**: Angular, HTML, CSS
 
-## Estrutura do Projeto
+## Project Structure
 
-- **Backend**: O servidor backend foi construído em Java, provendo APIs RESTful para interagir com o frontend e realizar operações de CRUD no banco de dados.
-- **Frontend**: A interface do usuário foi desenvolvida com Angular, HTML e CSS, oferecendo uma experiência interativa e responsiva.
+- **Backend**: The backend server is built in Java, providing RESTful APIs to interact with the frontend and perform CRUD operations on the database.
+- **Frontend**: The user interface is developed with Angular, HTML, and CSS, offering an interactive and responsive experience.
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1. **Clone o Repositório**
+1. **Clone the Repository**
 
     ```bash
-    git clone <URL do repositório>
-    cd <diretório do repositório>
+    git clone <repository URL>
+    cd <repository directory>
     ```
 
-2. **Configuração do Backend**
+2. **Backend Setup**
 
-    - Certifique-se de ter o Java instalado.
-    - Navegue até o diretório do backend.
-    - Configure seu banco de dados e as propriedades do arquivo de configuração.
-    - Inicie o servidor backend.
+    - Ensure Java is installed.
+    - Navigate to the backend directory.
+    - Configure your database and the configuration file properties.
+    - Start the backend server.
 
-3. **Configuração do Frontend**
+3. **Frontend Setup**
 
-    - Certifique-se de ter o Node.js instalado.
-    - Navegue até o diretório do frontend.
-    - Instale as dependências necessárias usando `npm install`.
-    - Inicie o servidor frontend com `ng serve`.
+    - Ensure Node.js is installed.
+    - Navigate to the frontend directory.
+    - Install the necessary dependencies using `npm install`.
+    - Start the frontend server with `ng serve`.
 
-4. **Acessando a Aplicação**
+4. **Accessing the Application**
 
-    - Acesse a aplicação em seu navegador através do endereço `http://localhost:4200`.
+    - Access the application in your browser at `http://localhost:4200`.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
